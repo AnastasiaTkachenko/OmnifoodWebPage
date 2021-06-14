@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+/* BIG TALETS: 1024-1200PX   */
+@media only screen and (max-width:1200px)  {
+    .hero-text-box {
+   
+        position:absolute;
+        width:100%; 
+        padding: 0 2%;
+    }
+
+    .row {padding:0 2%;}
+
+
+}
+
+
+
+
+/* SMALL TABLETS- TO BIG TABLETS : 768PX-1023PX  */
+@media only screen and (max-width:1023px)  {
+    body {font-size:18px;}
+    section {padding:60px 0;}
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+         }
+        .step-box {margin-top:10px;}
+        .step-box:last-child {margin-top:10px;}
+        .work-steps {margin-bottom: 40px;}
+        .work-steps:last-of-type { margin-bottom:50px;}
+        .app-screen { width:60%;}   /* увеличиваем картинку */ 
+       .contact-form {width:80%; margin:0 auto;}
+
+}
+
+/* SMALL PHONES : 481PX-767PX   */
+@media only screen and (max-width:767px)  {
+    body {font-size:15px;}
+    section {padding:30px 0;}
+    .row,
+    .hero-text-box {padding:0 4%;}
+    .col {width:100% !important; 
+    margin:0 0 4% 0;}
+
+    .main-nav {display: none;} 
+      /* полностью скрываем навигацию, потому что буквы сильно мелкие будем строить новый блок*/ 
+      h1 {font-size:180%;}
+      h2 {font-size: 150%;}
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+         }
+        
+         .app-screen { width:40%;} 
+        
+.step-box:first-child {  text-align:center;}  
+          /* это чтобы отцентровать картинку телефона по центру не знаю почему это используем а не апп скрин */ 
+ 
+          .work-steps  div {     /*уменьшаем кружочки там где 1,2,3 */ 
+        
+            height: 40px;
+            width: 40px;
+            padding: 4px;
+            font-size:120%;
+            margin-right:15px;
+           
+        }
+        .contact-form {width:100% }
+        
+}
+
+
+/* SMALL PHONES : 0- 480PX,  задаем параментры просмотра сайта если макисмальная ширна длина 480 пикселей это старые айфоны  */
+@media only screen and (max-width:480px)  {
+    
+}
